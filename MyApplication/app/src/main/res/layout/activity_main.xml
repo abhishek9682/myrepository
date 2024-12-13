@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFB300"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIKTOKGAME"
+        android:textStyle="bold"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="playerX"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="playerO"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@+id/bt1"
+            android:layout_margin="11dp"
+            android:onClick="Check"/>
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@+id/bt2"
+            android:layout_margin="11dp"
+            android:onClick="Check"/>
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@+id/bt3"
+            android:layout_margin="11dp"
+            android:onClick="Check"/>
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@+id/bt4"
+            android:layout_margin="11dp"
+            android:onClick="Check"/>
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@+id/bt5"
+            android:layout_margin="11dp"
+            android:onClick="Check"/>
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@+id/bt6"
+            android:layout_margin="11dp"
+            android:onClick="Check"/>
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@+id/bt7"
+            android:layout_margin="11dp"
+            android:onClick="Check"/>
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@+id/bt8"
+            android:layout_margin="11dp"
+            android:onClick="Check"
+            />
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@+id/bt9"
+            android:layout_margin="11dp"
+            android:onClick="Check"/>
+
+
+    </GridLayout>
+
+
+</LinearLayout>
+
